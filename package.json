@@ -1,0 +1,25 @@
+{
+  "name": "travis-demo",
+  "version": "1.0.0",
+  "description": "Practice Travis continuous integration",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildevol/travis-demo.git"
+  },
+  "keywords": [
+    "travis"
+  ],
+  "author": "Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buildevol/travis-demo/issues"
+  },
+  "homepage": "https://github.com/buildevol/travis-demo#readme",
+  "devDependencies": {
+    "jshint": "^2.11.1"
+  }
+}
