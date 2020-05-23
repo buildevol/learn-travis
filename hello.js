@@ -6,7 +6,7 @@ const PORT = proess.env.PORT;
 http
   .createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Hello Travis!\n")
+    res.end("Hello Travis!\n");
   })
   .listen(PORT, "127.0.0.1");
 
